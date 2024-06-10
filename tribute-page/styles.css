@@ -1,16 +1,48 @@
+
+
 body{
     background-color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 #main{
     background-color: #eee;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.2rem;
+}
+
+#title{
+    text-align: center;
 }
 
 #img-div{
     background-color: white;
+    text-align: center;
+    padding-bottom: 0.1%;
 }
 
 #image{
+    display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#img-caption{
+    text-align: center;
+    font-size: 1rem;
+}
+
+h2, #more-info, p{
+    text-align: center;
+}
+
+#tribute-info{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.1rem;  
+    line-height: 2;
 }
